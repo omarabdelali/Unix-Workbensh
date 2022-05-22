@@ -13,7 +13,7 @@ function guess(){
         then
             echo "your guess is Greater then the true number"
         else
-            echo " congratulation,you are right!"
+            echo "You are right!"
         break;
         fi
     done
