@@ -3,6 +3,7 @@ all: README.md
 README.md: guessinggame.sh
 	touch README.md
 	echo " ## Unix Work branche course " > README.md
+	echo "**Peer-graded Assignment**: Bash, Make, Git, and GitHub" >README.md
 	echo " \n" > README.md
 	echo "# guessinggame" > README.md
 	echo $$(date) >> README.md
